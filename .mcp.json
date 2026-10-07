@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "xferdata-data-value-advisor": {
+      "type": "http",
+      "url": "https://api.prod.xferdata.com/mcp/public"
+    }
+  }
+}
+

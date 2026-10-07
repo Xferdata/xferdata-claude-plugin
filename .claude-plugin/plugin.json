@@ -1,0 +1,9 @@
+{
+  "name": "xferdata-data-value-advisor",
+  "description": "Discover whether company data may have commercial value and is worth a formal Xferdata valuation.",
+  "version": "0.1.2",
+  "author": {
+    "name": "Xferdata"
+  },
+  "homepage": "https://www.xferdata.com"
+}
