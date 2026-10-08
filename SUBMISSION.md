@@ -16,7 +16,8 @@ No Claude directory submission or publication has been performed by this setup.
 Connect a GitHub account with push access in the intended Claude organization.
 For private review, the portal also requires its GitHub App installed on this repository and consent to source scanning.
 The repo must become public before the plugin goes live; changing visibility is a separate release action.
-Choose a license and add a LICENSE file or license field before directory validation. None has been assumed.
+Licensing is declared in the root LICENSE and the manifest (`license: MIT`).
+The grant covers plugin instructions, configuration and documentation; branding and the hosted backend are excluded.
 
 ## Separate MCP connector submission
 
@@ -31,7 +32,6 @@ Screenshots for an interactive MCP App carousel do not apply to this headless co
 
 ## Remaining gates
 
-- License: undecided; do not silently grant open-source rights.
 - Production: the last check during ChatGPT packaging still exposed the old schema. Verify tools/list includes data_activity and regularly_creates_or_collects_records after deployment.
 - Host testing: all Claude examples remain Not run. Test recurring activity, missing activity, explicit no-fit and small UK-only context, as well as unsupported price, raw-data access and payment requests.
 - Policy: verify actual processing, sharing, logs, retention and deletion. Review the published privacy policy's security claims and plugin coverage.

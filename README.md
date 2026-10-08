@@ -49,6 +49,12 @@ A failed call is not a completed screening. No local database, executable server
 
 ## Submission status
 
-This is a private preparation repository. A license decision, production alignment, privacy/documentation review,
-actual Claude testing and portal validation remain outstanding. No license grant is implied by hosting this source.
+This is a private preparation repository. Production alignment, privacy/documentation review,
+actual Claude testing and portal validation remain outstanding.
 See [submission preparation](SUBMISSION.md) for the portal fields and remaining steps.
+
+## License
+
+The plugin instructions, configuration and documentation are licensed under MIT; see [LICENSE](LICENSE).
+The Xferdata logo files in assets/ are excluded from the MIT grant and remain proprietary to Xferdata. No trademark rights are granted.
+This license does not cover the separately hosted API, backend source, valuation implementation or business data.
