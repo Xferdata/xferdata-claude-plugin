@@ -1,10 +1,11 @@
 {
   "name": "xferdata-data-value-advisor",
   "description": "Discover whether company data may have commercial value and is worth a formal Xferdata valuation.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Xferdata"
   },
   "homepage": "https://www.xferdata.com",
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://www.xferdata.com/privacy"
 }
