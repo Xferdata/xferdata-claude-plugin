@@ -34,7 +34,7 @@ Screenshots for an interactive MCP App carousel do not apply to this headless co
 
 - Production: the last check during ChatGPT packaging still exposed the old schema. Verify tools/list includes data_activity and regularly_creates_or_collects_records after deployment.
 - Host testing: all Claude examples remain Not run. Test recurring activity, missing activity, explicit no-fit and small UK-only context, as well as unsupported price, raw-data access and payment requests.
-- Policy: verify actual processing, sharing, logs, retention and deletion. Review the published privacy policy's security claims and plugin coverage.
+- Policy: https://www.xferdata.com/privacy currently returns HTTP 404. Restore or publish an accurate policy before submission and set privacyPolicyUrl in .claude-plugin/plugin.json only once that URL is live. Verify actual processing, sharing, logs, retention and deletion. Review the published privacy policy's security claims and plugin coverage.
 - Public docs: publish accurate setup, usage, limitations, privacy, pricing/conditional CTA and troubleshooting instructions.
 - Value: demonstrate a useful screening result independent of purchase. Anthropic disallows software primarily intended as advertising or promotion.
 - Portal: confirm the intended organization, run validation, resolve scan findings and complete authorized acknowledgments.

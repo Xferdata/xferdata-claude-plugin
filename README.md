@@ -41,8 +41,8 @@ Do not provide raw records, personal data, passwords or confidential files.
 Stateless transport does not establish backend logging, storage or retention practices; the published privacy policy must accurately cover actual processing before submission.
 
 - Website: https://www.xferdata.com
-- Support: https://www.xferdata.com/contact-us
-- Privacy: https://www.xferdata.com/privacy (coverage and accuracy review outstanding)
+- Support: https://www.xferdata.com/contact
+- Privacy: https://www.xferdata.com/privacy (currently returns HTTP 404; restore or replace with an accurate policy before submission)
 
 If the connector cannot be reached, check its URL and tool discovery, retry later, or contact support.
 A failed call is not a completed screening. No local database, executable server, hooks or dependency installation are provided by this package.

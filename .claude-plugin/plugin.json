@@ -6,5 +6,6 @@
     "name": "Xferdata"
   },
   "homepage": "https://www.xferdata.com",
-  "license": "MIT"
+  "license": "MIT",
+  "supportUrl": "https://www.xferdata.com/contact"
 }
